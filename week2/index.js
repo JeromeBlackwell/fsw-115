@@ -10,11 +10,12 @@ var answers = [
     {name: "Female Flower", color: "blue"},
     {name: "Thus Spoke Zarathustra", color: "grey"}
 ]
-
+console.log (answers)
 var answersList = document.getElementById("answers")
-
+console.log (answersList)
 for (var i = 0; i < answers.length; i++) {
-    answersList.innerHTML += "<li>" + answers[i] + "</li>"
+    console.log (answers[i].name)
+    answersList.innerHTML += `<li style="color:${answers[i].color}">  ${answers[i].name}  </li>`
 }
 
 // {
