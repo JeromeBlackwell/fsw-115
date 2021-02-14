@@ -12,7 +12,7 @@ xhr.onreadystatechange = function(){
 function showData(arr){
     for(let i = 0; i < arr.length; i++){
         const h1 = document.createElement('h1')
-        h1.textContent = arr[i].name +" - "+ arr[i].name
+        h1.textContent = arr[i].name +" - "+ arr[i].resource_url
         document.body.appendChild(h1)
     }
 }
