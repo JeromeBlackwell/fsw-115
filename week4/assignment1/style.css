@@ -1,0 +1,9 @@
+html, body {
+    background-color: blue;
+}
+h1 {
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+}
