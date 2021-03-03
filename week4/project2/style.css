@@ -1,9 +1,15 @@
 html, body {
-    background-color: rgb(55, 55, 207);
+    background-color: rgb(1, 6, 29);
 }
 h1 {
-    color: rgb(226, 226, 54);
+    color: rgb(207, 165, 165);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 400px;
     margin-right: 400px;
+}
+div {
+    display: flex;
+    margin: 15px;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
